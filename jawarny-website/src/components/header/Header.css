@@ -1,0 +1,33 @@
+header {
+  background-color: #323232;
+  display: flex;
+  height: 5em;
+  color: white;
+}
+
+.menu {
+  justify-content: center;
+  display: flex;
+  width: 70em;
+}
+
+.square {
+  height: auto;
+  width: 5em;
+  background-color: #a6a6a6;
+}
+
+.logo-jeux {
+  height: auto;
+  width: 5em;
+}
+
+.titre {
+  font: bold;
+  margin-left: 1em;
+}
+
+.navigation {
+  align-items: center;
+  width: auto;
+}
