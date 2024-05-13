@@ -1,9 +1,10 @@
 import "./Main.css";
+import { Outlet } from "react-router-dom";
 
 function Main() {
   return (
-    <main className="">
-      <div className="main-body">notre site</div>
+    <main>
+      <Outlet />
     </main>
   );
 }

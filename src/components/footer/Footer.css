@@ -2,4 +2,8 @@ footer {
   background-color: #323232;
   height: 5em;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
