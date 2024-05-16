@@ -24,6 +24,7 @@ const routesDeconnecte = [
     element: <Racine />,
     errorElement: <Erreur />,
     children: [
+      { path: "/", element: <Navigate to="/acceuil" replace /> },
       { path: "/acceuil", element: <Acceuil /> },
       { path: "/inscription", element: <Inscription /> },
       { path: "/connexion", element: <Connexion /> },
@@ -39,6 +40,7 @@ const routesConnecte = [
     element: <Racine />,
     errorElement: <Erreur />,
     children: [
+      { path: "/", element: <Navigate to="/acceuil" replace /> },
       { path: "/monProfil", element: <MonProfil /> },
       { path: "/editProfil", element: <EditProfil /> },
       { path: "/ajoutJeu", element: <AjoutJeu /> },

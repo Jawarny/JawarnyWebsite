@@ -1,9 +1,13 @@
+import Boutton from "../../../boutton/Boutton";
 import "./Acceuil.css";
 
 function Acceuil() {
   return (
     <div className="bodyMain">
-      <div>Acceuil page</div>
+      <div className="acceuil">
+        <Boutton to="/inscription" tag="S'enregistrer" />
+        <Boutton to="/connexion" tag="Se Connecter" />
+      </div>
     </div>
   );
 }

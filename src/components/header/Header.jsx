@@ -1,21 +1,20 @@
 import React from "react";
 import "./Header.css";
 import logo from "../../assets/logo-jeux.png";
+import ItemDeNavigation from "../itemDeNavigation/ItemDeNavigation";
 
 export default function Header() {
-  let title = "Jeux";
+  let title = "Babarny";
   return (
     <header>
-      <div className="square">
-        <img src={logo} alt={title} className="logo-jeux" />
-      </div>
+      <ItemDeNavigation to="/acceuil" tag="" src={logo} alt={title} />
 
       <h1 className="titre">{title}</h1>
 
       <div className="menu">
         <div className="navigation"></div>
       </div>
-      <div className="square"></div>
+      <ItemDeNavigation to="/monProfil" tag="" src="" alt={title} />
     </header>
   );
 }
