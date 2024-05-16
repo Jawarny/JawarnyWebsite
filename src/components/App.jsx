@@ -26,6 +26,7 @@ const routesDeconnecte = [
     children: [
       { path: "/", element: <Navigate to="/acceuil" replace /> },
       { path: "/acceuil", element: <Acceuil /> },
+      { path: "/monProfil", element: <Navigate to="/connexion" replace /> },
       { path: "/inscription", element: <Inscription /> },
       { path: "/connexion", element: <Connexion /> },
       { path: "/jeux/:titreJeux", element: <Jeux /> },
